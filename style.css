@@ -1,0 +1,12 @@
+body{
+    background-color: blueviolet;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.animeEsquedar{
+    transition: 1s;
+    margin-left: 10px;
+}

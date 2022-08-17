@@ -1,0 +1,27 @@
+<html>
+    <body>
+        <style>
+            .box{
+                width: 100px;
+                height: 100px;
+                background-color: red;
+                
+            }
+            .anime{
+                transition: 1s;
+                background-color: blue;
+                background-color: blueviolet;
+                background-color: rgb(0, 217, 255);background-color: rgb(41, 209, 83);background-color: red;background-color: rgb(32, 30, 30);background-color: rgb(0, 162, 255);background-color: rgb(0, 0, 0);background-color: rgb(157, 255, 0);background-color: rgb(255, 0, 106);background-color: rgb(0, 110, 255);
+            }
+
+        </style>
+        <div class="box"><h1>Hello World</h1></div>
+        <script>
+            var box = document.querySelectorAll('.box')[0];
+            setTimeout(() => {
+                box.classList.add('anime');
+            },1000);
+
+        </script>
+    </body>
+</html>
